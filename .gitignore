@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+
+# Database (SQLite - don't commit)
+*.db
+*.sqlite
+*.sqlite3
+
+# Data (raw/sensitive)
+data/raw/*.csv
+
+# API keys & secrets
+config/secrets.py
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
