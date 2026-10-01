@@ -13,6 +13,7 @@ SCRIPTS_DIR = os.path.join(BASE_DIR, 'scripts')
 
 # File paths
 RAW_DATA_FILE = os.path.join(DATA_DIR, 'raw', 'PA_Fin_2026_Bootcamp_Applications.csv')
+BOOTCAMPERS_FILE = os.path.join(DATA_DIR, 'processed', 'PA_2026_bootcampers_final.csv')
 DATABASE_FILE = os.path.join(DATABASE_DIR, 'project_access_2026.db')
 
 # 2026 Configuration
@@ -21,9 +22,12 @@ CANDIDATE_ID_PREFIX = f"PA-{BOOTCAMP_YEAR}"
 
 # Typeform IDs (fill in after creating forms)
 SURVEY_1_FORM_ID = "INPUT_LATER"
-SURVEY_2_FORM_ID = "INPUT_LATER"
-SURVEY_3_FORM_ID = "INPUT_LATER"
+SURVEY_2_FORM_ID = "zFngaeX3"
+SURVEY_3_FORM_ID = "WovHvSpO"
 
 # Logging
 LOG_LEVEL = "INFO"
 LOG_FILE = os.path.join(BASE_DIR, 'logs', f'pipeline_{datetime.now().strftime("%Y%m%d")}.log')
+
+TYPEFORM_API_TOKEN = os.getenv('TYPEFORM_API_TOKEN', '')  # Set via environment variable
+ADMIN_PASSWORD = "PA_Admin_Secure"

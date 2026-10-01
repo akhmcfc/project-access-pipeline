@@ -1,0 +1,11 @@
+{
+  "total_records": 36,
+  "records_with_uncertainty": 10,
+  "records_with_multi_values": 36,
+  "avg_multi_values": 9.666666666666666,
+  "uncertainty_fields": {
+    "dream_universities": 0,
+    "field_of_study": 0,
+    "target_destinations": 0
+  }
+}

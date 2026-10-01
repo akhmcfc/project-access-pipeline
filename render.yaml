@@ -1,0 +1,10 @@
+﻿services:
+  - type: web
+    name: project-access-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_api.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
