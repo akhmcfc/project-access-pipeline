@@ -526,7 +526,7 @@
                         }, 300);
                         
                     } catch (err) {
-                        error.value = 'Error loading dashboard. Make sure API is running on localhost:5000';
+                        error.value = 'Error loading dashboard. Check network connection and API status.';
                         console.error(err);
                     } finally {
                         loading.value = false;
